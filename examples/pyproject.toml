@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "examples"
+version = "0.1.0"
+description = ""
+authors = ["alehd <ale.hdz333@ciencias.unam.mx>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+febhd_clustering = "^0.1.0"
+torch = "^1.7.0"
+numpy = "^1.19.4"
+sklearn = "^0.0"
+tqdm = "^4.54.1"
+pandas = "^1.1.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
