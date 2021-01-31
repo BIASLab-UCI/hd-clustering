@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'hd_clustering'
+project = 'febhd_clustering'
 copyright = '2020, Alejandro Hernández Cano'
 author = 'Alejandro Hernández Cano'
 

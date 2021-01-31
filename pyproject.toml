@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "hd_clustering"
+name = "febhd_clustering"
 version = "0.1.0"
-description = ""
+license = "MIT"
+description = "Smart Hyperdimensional Clustering algorithm: FebHD"
+readme = "README.md"
+repository = "https://gitlab.com/biaslab/hd-clustering"
 authors = ["alehd <ale.hdz333@ciencias.unam.mx>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-torch = "^1.7.0"
+torch = "^1.7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

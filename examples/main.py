@@ -5,8 +5,8 @@ from tqdm import tqdm
 import pandas as pd
 
 import examples
-import hd_clustering
-from hd_clustering import FebHD
+import febhd_clustering
+from febhd_clustering import FebHD
 
 # evaluates febhd performace
 # dataloaders = iterable of dataloaders to use

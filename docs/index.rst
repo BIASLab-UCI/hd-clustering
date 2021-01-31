@@ -7,5 +7,5 @@ API
 .. autosummary::
    :toctree: _autosummary
 
-   hd_clustering.FebHD
-   hd_clustering.Encoder
+   febhd_clustering.FebHD
+   febhd_clustering.Encoder

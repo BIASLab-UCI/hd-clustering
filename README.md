@@ -7,7 +7,7 @@
 In order to install the package, simply run the following:
 
 ```
-pip install febhd_clustering
+pip install febhd-clustering
 ```
 
 Visit the PyPI [project page](https://pypi.org/project/febhd-clustering/) for
@@ -24,13 +24,13 @@ The following code generates dummy data and trains a FebHD clustering model
 with it.
 
 ```python
->>> import hd_clustering
+>>> import febhd_clustering
 >>> dim = 10000
 >>> n_samples = 1000
 >>> features = 100
 >>> clusters = 5
 >>> x = torch.randn(n_samples, features) # dummy data
->>> model = hd_clustering.FebHD(clusters, features, dim=dim)
+>>> model = febhd_clustering.FebHD(clusters, features, dim=dim)
 >>> if torch.cuda.is_available():
 ...     print('Training on GPU!')
 ...     model = model.to('cuda')

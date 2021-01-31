@@ -6,7 +6,7 @@ authors = ["alehd <ale.hdz333@ciencias.unam.mx>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-febhd_clustering = "^0.1.0"
+febhd-clustering = "^0.1.0"
 torch = "^1.7.0"
 numpy = "^1.19.4"
 sklearn = "^0.0"
